@@ -38,7 +38,6 @@ const Products = ({ ProductIconsData }: ProductsProps) => {
     <div className="w-full max-w-7xl mx-auto px-4 py-10 bg-white">
       <div className="grid grid-cols-1 lg:grid-cols-[minmax(0,1fr)_280px] gap-8">
 
-        {/* Products */}
         <div className="grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-3 gap-5">
           {products.map((product) => (
             <Product
@@ -50,7 +49,6 @@ const Products = ({ ProductIconsData }: ProductsProps) => {
           ))}
         </div>
 
-        {/* Your Stack */}
         <div>
           <div className="sticky top-6 w-full rounded-[24px] border border-gray-100 bg-white p-5 shadow-[0_4px_20px_rgba(0,0,0,0.06)]">
 
